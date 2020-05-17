@@ -2,7 +2,7 @@
 module.exports = {
     // これだとログが表示されなかった
     // publicPath: '/my-project/',
-    publicPath: './'
+    publicPath: './',
     outputDir: 'docs'
 }
 
