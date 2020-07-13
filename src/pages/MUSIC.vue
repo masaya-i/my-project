@@ -5,7 +5,7 @@
         <div class="column is-two-five">
             <div>
                 <br>
-                <img class="gif" src="./assets/MUSIC.jpg"  alt="サムネイル画像">      
+                <img class="gif" src=".././assets/MUSIC.jpg"  alt="サムネイル画像">      
             </div>
         </div>
         <div class="column is-thirds-five write">

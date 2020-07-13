@@ -7,7 +7,7 @@
       <div class="columns is-centered">
         <div class="column is-10">
           <br>
-          <img class="gif" src="./assets/TOP.jpg" alt="画像を表示出来ません">
+          <img class="gif" src=".././assets/TOP.jpg" alt="画像を表示出来ません">
         </div>
       </div>
     </div>
