@@ -8,7 +8,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
-              <img src="https://github.com/masaya-i/test/blob/master/img/LOGO.jpg?raw=true" alt="Logo">
+              <img src="./assets/LOGO.jpg" alt="Logo">
           </a>
           <span class="navbar-burger burger" data-target="navbarMenuHeroC">
             <span></span>
