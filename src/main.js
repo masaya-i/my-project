@@ -4,9 +4,7 @@ import TOP from './pages/TOP.vue';
 
 // vue-router と routes.js をインポート
 import VueRouter from 'vue-router';
-import {
-  routes
-} from './routes';
+import {routes} from './routes';
 
 Vue.config.productionTip = false
 
@@ -38,6 +36,3 @@ new TOP({
     show:true
   }
 }).$mount('#top')
-
-// VueRouterをプラグインとして指定
-// TOP.use(VueRouter)

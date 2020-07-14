@@ -18,13 +18,13 @@
           </span>
         </div>
         <div id="navbarMenuHeroC" class="navbar-menu" v-bind:class="{ 'is-active': menuActive }">
-          <div class="navbar-end">
+          <div class="navbar-end" @click="menuClose(),topClose()">
             <!-- <a class="navbar-item is-active" href="#top">
               TOP
             </a> -->
-              <router-link class="navbar-item" to="/TOP" @click="test2()">TOP</router-link>
-              <router-link class="navbar-item" to="/MYSELF" @click="test2()">MYSELF</router-link>
-              <router-link class="navbar-item" to="/SKILL" @click="show = !show">SKILL</router-link>
+              <router-link class="navbar-item" to="/TOP">TOP</router-link>
+              <router-link class="navbar-item" to="/MYSELF">MYSELF</router-link>
+              <router-link class="navbar-item" to="/SKILL">SKILL</router-link>
               <!-- <router-link class="navbar-item" to="/TOP" @click="show = !show">TOP</router-link>
               <router-link class="navbar-item" to="/MYSELF" @click="show = !show">MYSELF</router-link>
               <router-link class="navbar-item" to="/SKILL"  @click="show = !show">SKILL</router-link> -->
@@ -41,12 +41,12 @@
       </div>
     </header>
   </div>
-  <div @click="test2()">
+  <div @click="menuClose()">
     <br>
     <br>
     <br>
-         <!-- <TOP v-show="show"></TOP> -->
-           <!-- <button @click="flag = true">ボタン</button> -->
+    <TOP v-show="show"></TOP>
+           <!-- <button @click="topClose()">ボタン</button> -->
              <!-- <div v-show="show">表示されています</div> -->
   <!-- <button @click="show = !show">ボタン</button> -->
     <!-- <button @click=test()>ボタン</button>
@@ -58,12 +58,12 @@
 
 <script>
 import 'bulma/css/bulma.css'; 
-// import TOP from "./components/TOP.vue"
+import TOP from "./components/TOP.vue"
 
 export default {
     // name: 'aaa',
   components: {
-    // TOP
+    TOP
   },
   data() {
     return {
@@ -75,18 +75,19 @@ export default {
     menuToggle(){
         this.menuActive = !this.menuActive;
     },
-    test2(){
+    menuClose(){
       if(this.menuActive){
-      // alert('持っている');
-      // menuToggle();
-        this.menuActive = !this.menuActive;
+        // alert('持っている');
+        this.menuToggle();
       }else{
         // alert('持っていない');
       }
+    },
+    topClose(){
+      this.show = false;
     }
   }
 }
-
 
 // 複数のコンポーネントを入れることが出来た。
 // import Header from "./components/Header.vue"
@@ -99,38 +100,8 @@ export default {
 //     HelloWorld,
 //     Header,
 //     Form
-
 //   }
 // }
-/*
-$(document).ready(function () {
-    var burger = $('.burger');
-    var menu = $('#' + burger.data('target'));
-  var nav = $('.navbar-item');  
-  Number 
-    
-  burger.on('click', function () {
-    burger.toggleClass('is-active');
-    menu.toggleClass('is-active');
-  });
-
-  $('.navbar-menu').on('click', function () {
-    if ($('.burger').hasClass('is-active'))  {
-      burger.removeClass('is-active');
-      menu.removeClass('is-active');
-  } else {      
-    }
-  });
-
-  $('.main-wrapper').on('click', function () {
-      if ($('.burger').hasClass('is-active'))  {
-        burger.removeClass('is-active');
-        menu.removeClass('is-active');
-    } else {      
-    }  
-  });
-});
-*/
 
 </script>
 
