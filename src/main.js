@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
+import TOP from './pages/TOP.vue';
 
 // vue-router と routes.js をインポート
 import VueRouter from 'vue-router';
@@ -25,5 +26,18 @@ const router = new VueRouter({
 new Vue({
   el: '#app',
   router, // VueインスンタンスにVueRouterインスンタンスを渡す
+  data:{
+    show:true
+  },
   render: h => h(App)
 })
+
+new TOP({
+  render: h => h(top),
+  data:{
+    show:true
+  }
+}).$mount('#top')
+
+// VueRouterをプラグインとして指定
+// TOP.use(VueRouter)
