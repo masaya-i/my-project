@@ -115,6 +115,76 @@ h1{
   border-bottom: solid 6px ;
   /* margin-left: 20px; */
   }
+
+  h2{
+    border-bottom: solid 4px ;
+      text-align: center;
+  }
+    
+
+.columns{
+  /* padding: 15px; */
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  text-align: center;
+  /* background-color: #2793b5; */
+}
+
+
+.moji{
+  /* font-size: 38px; */
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* float: left; */
+  /* text-align: right; */
+  /* display: block; */
+}
+
+.write{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* 自動で画像の大きさをそろえてくれる */
+/* 画面サイズに合わせつつ、最大最小を設定した記述 */
+.gif{
+max-width: 1000px;
+width: 100%;
+text-align: center;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+/* PC用のCSS */
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  h1{
+    border-bottom-color: #00FFFF; /*青色*/
+  }
+  h2{
+    border-bottom-color: #00FFFF; /*青色*/
+  }
+}
+/* タブレット用のCSS */
+@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+      h1{
+        border-bottom-color: #FF0000; /*赤色*/
+      }
+      h2{
+        border-bottom-color: #FF0000; /*赤色*/
+      }
+}
+
+/* スマホ用のCSS */
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+      h1{
+        border-bottom-color: #00FF00; /*緑色*/
+      }
+      h2{
+        border-bottom-color: #00FF00; /*赤色*/
+      }
+}
 </style>
 
 
