@@ -29,7 +29,8 @@
               <router-link class="navbar-item" to="/MYSELF" @click="show = !show">MYSELF</router-link>
               <router-link class="navbar-item" to="/SKILL"  @click="show = !show">SKILL</router-link> -->
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="https://masaya-i.github.io/test/">FAVORITE</a>
+              <a class="navbar-link">FAVORITE</a>
+              <!-- <a class="navbar-link" href="https://masaya-i.github.io/test/">FAVORITE</a> -->
               <div class="navbar-dropdown">
               <!-- <div class="navbar-dropdown" v-bind:class="{ 'is-active': menuActive }"> -->
               <router-link class="navbar-item" to="/MUSIC"  @click.native="hideMenu">MUSIC</router-link>
