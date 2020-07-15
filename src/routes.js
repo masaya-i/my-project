@@ -2,6 +2,7 @@ import TOP from './pages/TOP.vue'
 import MYSELF from './pages/MYSELF.vue'
 import MUSIC from './pages/MUSIC.vue'
 import SKILL from './pages/SKILL.vue'
+import GAME from './pages/GAME.vue'
 
 export const routes = [
   // path はルートパスからのアドレス
@@ -22,5 +23,8 @@ export const routes = [
     path: '/SKILL',
     component: SKILL
   },
-  
+  {
+    path: '/GAME',
+    component: GAME
+  },
 ]

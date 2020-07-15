@@ -31,9 +31,10 @@
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link" href="https://masaya-i.github.io/test/">FAVORITE</a>
               <div class="navbar-dropdown">
-              <router-link class="navbar-item" to="/MUSIC">MUSIC</router-link>
+              <!-- <div class="navbar-dropdown" v-bind:class="{ 'is-active': menuActive }"> -->
+              <router-link class="navbar-item" to="/MUSIC"  @click.native="hideMenu">MUSIC</router-link>
                   <hr class="navbar-divider">
-              <router-link class="navbar-item" to="/GAME">GAME</router-link>
+              <router-link class="navbar-item" to="/GAME" @click.native="hideMenu">GAME</router-link>
               </div>
             </div>
           </div>
@@ -85,6 +86,9 @@ export default {
     },
     topClose(){
       this.show = false;
+    },
+    hideMenu(e) {
+      e.target.blur()
     }
   }
 }
