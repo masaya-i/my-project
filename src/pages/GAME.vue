@@ -136,15 +136,13 @@
     </div>
     <div class="columns is-centered">
         <img class="gif" src=".././assets/FARAN.gif" alt="画像を表示出来ません">
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/bzJDimvPW1Y
-            ?loop=1
-            &playlist=vdxoDyNAoH0
-            &autoplay=0
-            &mute=1
-            &rel=0
-            &modestbranding=1"
-            frameborder="0" allowfullscreen>
+    </div>
+    <br>
+    <div class="columns is-centered">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bzJDimvPW1Y"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
         </iframe>
     </div>
 </div>
