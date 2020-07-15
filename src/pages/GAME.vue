@@ -36,7 +36,7 @@
                 <br>
                 デザインもとても綺麗です。ふ、ふつくしい・・
                 <br>
-                <img class="gif" src=".././assets/noron.jpg" alt="画像を表示出来ません">
+                <img class="gif" src=".././assets/anoron.jpg" alt="画像を表示出来ません">
                 </div>  
 
                 </div>
@@ -135,7 +135,7 @@
         </div>
     </div>
     <div class="columns is-centered">
-        <img class="gif" src=".././assets/faran.gif" alt="画像を表示出来ません">
+        <img class="gif" src=".././assets/FARAN.gif" alt="画像を表示出来ません">
         <iframe width="560" height="315"
             src="https://www.youtube.com/embed/bzJDimvPW1Y
             ?loop=1
