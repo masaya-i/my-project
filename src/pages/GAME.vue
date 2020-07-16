@@ -32,14 +32,14 @@
                 PS3で発売されましたが、あまりの人気にPS4でリメイク版が発売されました。 
                 </strong>
                 <div class="column is-10 is-centered">
-                <img class="gif" src=".././assets/DARKSOUL.jpg" alt="画像を表示出来ません">
+                    <img class="gif" src=".././assets/DARKSOUL.jpg" alt="画像を表示出来ません">
+                    <br>
+                <!-- デザインもとても綺麗です。ふ、ふつくしい・・
                 <br>
-                デザインもとても綺麗です。ふ、ふつくしい・・
-                <br>
-                <img class="gif" src=".././assets/anoron.jpg" alt="画像を表示出来ません">
+                <img class="gif" src=".././assets/anoron.jpg" alt="画像を表示出来ません"> -->
                 </div>  
 
-                </div>
+            </div>
         </div>
     </div>
     <h2 class="container is-fluid is-size-4">絶望的なゲーム仕様</h2>
@@ -134,37 +134,43 @@
             </div>
         </div>
     </div>
+    <br>
     <div class="columns is-centered">
         <img class="gif" src=".././assets/FARAN.gif" alt="画像を表示出来ません">
     </div>
     <br>
-    <!-- <div class="columns is-centered"> -->
+    <div class="columns is-centered">
         <div class="video">
-        <iframe
-        src="https://www.youtube.com/embed/bzJDimvPW1Y"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-        </iframe>
+        <!-- <div class="video"> -->
+            <iframe
+            src="https://www.youtube.com/embed/bzJDimvPW1Y"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
         </div>
-    <!-- </div> -->
+    </div>
 </div>
 </template>
 
 <style>
 .video{
   position:relative;
-  width:100%;
-  padding-top:56.25%;
+  width:70%;
+  /* background-color: aqua; */
+  padding-bottom:36.25%;
+  /* text-align: center; */
+  /* margin-left: 90px; */
+  padding-right: 50%;
 }
 .video iframe{
     position:absolute;
-    top:0;
-    right:0;
+    /* top:0;
+    right:0; */
     width:70%;
     height:70%;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
+      /* text-align: center; */
+    /* padding-left: 25px;
+    padding-right: 15px; */
 }
 </style>
