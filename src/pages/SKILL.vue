@@ -8,7 +8,6 @@
                 <img class="gif" src=".././assets/IT.jpg"  alt="画像を表示出来ません">      
             </div>
         </div>
-        <!-- <div class="column is-thirds-five write"> -->
           <div class="column write">
             <div>
               <br>

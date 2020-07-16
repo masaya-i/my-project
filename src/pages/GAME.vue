@@ -17,7 +17,7 @@
                 みなさま、人生において忘れられない達成感ってありませんか？
                 <br>
                 <br>
-                プロジェクトが無事終わったとき、製品を納品したとき、
+                プロジェクトが無事終わったとき、試験に合格したとき、
                 リーダーの役目を無事終えたとき、いろいろありますよね。
                 <br>
                 <br>                               
@@ -31,14 +31,30 @@
                 そんな尋常じゃない達成感を味わえるゲーム、それがこれ『ダークソウル』です！
                 PS3で発売されましたが、あまりの人気にPS4でリメイク版が発売されました。 
                 </strong>
-                <div class="column is-10 is-centered">
-                    <img class="gif" src=".././assets/DARKSOUL.jpg" alt="画像を表示出来ません">
-                    <br>
-                <!-- デザインもとても綺麗です。ふ、ふつくしい・・
                 <br>
-                <img class="gif" src=".././assets/anoron.jpg" alt="画像を表示出来ません"> -->
-                </div>  
-
+                <br>
+                全世界でのシリーズ累計販売本数は２７００万本以上です。
+                （ちなみにモンスターハンターの全世界シリーズ累計販売本数は
+                ６２００万本以上なので、人気は結構ある方だと思います）
+                <br>
+                <br>
+                僕は大学生のとき、何気なく友達の家でやってからドハマりして、
+                気づけばファン歴10年のベテランプレイヤーです。
+                <br>
+                <br>
+                <br>
+                <strong>
+                ★ダークソウル紹介動画
+                </strong>
+                <br>
+                <div class="column video youtube">
+                    <iframe
+                    src="https://www.youtube.com/embed/nwJbcN5uxNQ"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -52,10 +68,6 @@
         </div>
         <div class="column is-thirds-five write">
             <div>
-                <br>
-                僕は大学生のとき、何気なく友達の家でやってからドハマりして、
-                気づけばファン歴10年のベテランプレイヤーです。
-                <br>
                 <br>
                 少し紹介させていただきますと、ジャンルとしては、ロールプレイングアクションで、
                 キャラをレベルアップさせて敵を倒していくという話です。
@@ -72,6 +84,16 @@
                 <br>
                 なので蘇ったプレイヤーは、そのソウルを拾いにいかなければなりませんが、
                 そのソウルを拾えずに死んでしまうと、貯まったソウルは失われてしまうんです。
+                <br>
+                <br>
+                つまりどういうことかというと、拾う力がなければ、ソウルを貯めることが出来ず、
+                永遠にレベルアップできないということなんです。
+                <br>
+                <br>
+                <br>
+                <strong>
+                こういったエグい仕様から、このゲームは別名こう呼ばれています、、『心折れソウル』
+                </strong>
             </div>
         </div>
     </div>
@@ -86,21 +108,18 @@
         <div class="column is-thirds-five write">
             <div>
                 <br>
-                つまりどういうことかというと、拾う力がなければ、ソウルを貯めることが出来ず、
-                永遠にレベルアップできないということなんです。
+                他にもプレイヤーの心を折りにくる絶望的な要素がたくさんありますが、
+                ソウルを失わないためにも、自分のソウルを失わないためにも
+                試行錯誤を繰り返し、少しづつ前に進んでいきます。
                 <br>
                 <br>
-                僕が初めてプレイしたときのダークソウルの印象は、
-                『辛さしかねーｗ何が楽しいんだ( ﾟДﾟ)』て感じでした。
+                この過程も、最初は苦しいですが、慣れてくると病みつきになるほど楽しいです。
                 <br>
-                <br>
+                <br>                
+                そして、
                 <strong>
-                こういったエグい仕様から、このゲームは別名こう呼ばれています、、『心折れソウル』
+                その過程や絶望を乗り越えた先には、測り知れない達成感が必ず待っています。保証します！
                 </strong>
-                <br>
-                <br>
-                他にも絶望的な要素満載ですが、
-                その絶望をすべて余裕で吹き飛ばしてくれる達成感が必ず先に待っています。保証します！
             </div>
         </div>
     </div>
@@ -117,7 +136,7 @@
                 <br>
                 僕の場合は、ある敵（O.S)を倒したときの達成感と解放感があまりに凄すぎて、
                 その後の居酒屋で一人だけ、ずっと放心状態だったのが良い思い出です。
-                みんな、伊藤は今日ほっといてやれって感じでしたね。（笑） 
+                あの日、僕の心はダークソウルの世界に置いたままでした。（笑） 
                 <br>
                 <br>
                 ソウルを失うたびに、発狂していく友達を何人も見てきましたが、
@@ -139,7 +158,7 @@
         <img class="gif" src=".././assets/FARAN.gif" alt="画像を表示出来ません">
     </div>
     <br>
-    <h2 class="container is-fluid is-size-4">プレイ動画</h2>
+    <h2 class="container is-fluid is-size-4">海外でも大人気</h2>
     <br>
     <div class="columns is-desktop is-mobile is-tablet is-centered">
         <div class="video">
@@ -158,7 +177,7 @@
 <style>
 .video{
 position: relative;
-  width: 45%;
+  width: 70%;
   padding-bottom: 20.25%;
   top: 0;
   left: 0;
@@ -173,5 +192,10 @@ position: relative;
   height: 100% !important;
     /* display : block;
     margin : 0 auto; */
+}
+
+.youtube{
+     display : block;
+    margin : 0 auto;
 }
 </style>
