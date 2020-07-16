@@ -18,9 +18,15 @@ Vue.use(VueRouter)
 
 // VueRouterインスタンスを作成
 const router = new VueRouter({
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })
-
 new Vue({
   el: '#app',
   router, // VueインスンタンスにVueRouterインスンタンスを渡す

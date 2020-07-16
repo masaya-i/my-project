@@ -53,7 +53,9 @@
   <!-- <button @click="show = !show">ボタン</button> -->
     <!-- <button @click=test()>ボタン</button>
     <button v-on:click="test()">ボタン2</button> -->
+    <transition name="fade">
     <router-view></router-view>
+    </transition>
   </div>
 </div>
 </template>
