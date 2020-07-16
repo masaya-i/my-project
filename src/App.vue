@@ -119,14 +119,16 @@ h1{
   /* text-align: left; */
   border-bottom: solid 6px ;
   /* margin-left: 20px; */
+
   }
 
   h2{
-    border-bottom: solid 4px ;
+    /* border-bottom: solid 4px ; */
       text-align: center;
+      background-color:cadetblue;
+      color: white;
   }
     
-
 .columns{
   /* padding: 15px; */
   /* margin-left: 15px;
@@ -167,16 +169,10 @@ padding-right: 15px;
   h1{
     border-bottom-color: #00FFFF; /*青色*/
   }
-  h2{
-    border-bottom-color: #00FFFF; /*青色*/
-  }
 }
 /* タブレット用のCSS */
 @media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
       h1{
-        border-bottom-color: #FF0000; /*赤色*/
-      }
-      h2{
         border-bottom-color: #FF0000; /*赤色*/
       }
 }
@@ -185,9 +181,6 @@ padding-right: 15px;
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
       h1{
         border-bottom-color: #00FF00; /*緑色*/
-      }
-      h2{
-        border-bottom-color: #00FF00; /*赤色*/
       }
 }
 </style>

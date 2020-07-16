@@ -12,13 +12,13 @@
           <div class="column write">
             <div>
               <br>
-              ～言語スキル～
+              ～～ 言語スキル ～～
               <br>
               <br>   
               Excel ★★★★☆
               <br>
               <br>   
-              PowerPoint ★★★☆☆
+              PowerPoint ★★★★☆
               <br>
               <br>   
               VB ★★★★☆
@@ -27,10 +27,13 @@
               Java ★★☆☆☆ 
               <br>
               <br> 
-              HTML ★★☆☆☆ 
+              HTML ★★★☆☆ 
               <br>
               <br> 
-              CSS ★★☆☆☆
+              CSS ★★★☆☆
+              <br>
+              <br>   
+              BULMA ★★★☆☆
               <br>
               <br>   
               JavaScript ★★☆☆☆
@@ -45,7 +48,7 @@
         <div class="column write is-primary">
           <div>
             <br>
-            ～DBスキル～
+            ～～ DBスキル ～～
             <br>
             <br>  
             SQLSever ★★★☆☆
