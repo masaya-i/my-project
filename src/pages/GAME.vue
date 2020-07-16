@@ -139,9 +139,10 @@
         <img class="gif" src=".././assets/FARAN.gif" alt="画像を表示出来ません">
     </div>
     <br>
-    <div class="columns is-centered">
+    <h2 class="container is-fluid is-size-4">プレイ動画</h2>
+    <br>
+    <div class="columns is-desktop is-mobile is-tablet is-centered">
         <div class="video">
-        <!-- <div class="video"> -->
             <iframe
             src="https://www.youtube.com/embed/bzJDimvPW1Y"
             frameborder="0"
@@ -149,37 +150,28 @@
             allowfullscreen>
             </iframe>
         </div>
-                    <br>
-                        <br>            <br>
-                                            <br>
-                        <br>            <br>
     </div>
+    <br>
 </div>
 </template>
 
 <style>
 .video{
-  /* position:relative; */
- position: relative;
- width: 60%;
-/* padding: 30px 0 56.25%; */
-/* overflow: hidden; */
-  /* background-color: aqua; */
-  padding-bottom:30.25%;
-  /* text-align: center; */
-  /* margin-left: 90px; */
-  /* padding-right: 50%; */
-  /* padding-left: 15px; */
+position: relative;
+  width: 45%;
+  padding-bottom: 20.25%;
+  top: 0;
+  left: 0;
+  background-color: aqua;
 }
+
 .video iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-      /* text-align: center; */
-    /* padding-left: 25px; */
-    /* padding-right: 105px; */
-    /* margin-right: 197px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+    /* display : block;
+    margin : 0 auto; */
 }
 </style>
