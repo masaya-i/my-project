@@ -149,28 +149,37 @@
             allowfullscreen>
             </iframe>
         </div>
+                    <br>
+                        <br>            <br>
+                                            <br>
+                        <br>            <br>
     </div>
 </div>
 </template>
 
 <style>
 .video{
-  position:relative;
-  width:70%;
+  /* position:relative; */
+ position: relative;
+ width: 60%;
+/* padding: 30px 0 56.25%; */
+/* overflow: hidden; */
   /* background-color: aqua; */
-  padding-bottom:36.25%;
+  padding-bottom:30.25%;
   /* text-align: center; */
   /* margin-left: 90px; */
-  padding-right: 50%;
+  /* padding-right: 50%; */
+  /* padding-left: 15px; */
 }
 .video iframe{
-    position:absolute;
-    /* top:0;
-    right:0; */
-    width:70%;
-    height:70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
       /* text-align: center; */
-    /* padding-left: 25px;
-    padding-right: 15px; */
+    /* padding-left: 25px; */
+    /* padding-right: 105px; */
+    /* margin-right: 197px; */
 }
 </style>
