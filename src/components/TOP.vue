@@ -11,7 +11,3 @@
     </div>
 
 </template>
-
-<style>
-@import "C:/Users/Masaya/Desktop/my-project/node_modules/bulma/bulma.sass";
-</style>
