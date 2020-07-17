@@ -11,7 +11,7 @@
           <div class="column write">
             <div>
               <br>
-              ～～ 言語スキル ～～
+              ～～ 言語 ～～
               <br>
               <br>   
               Excel ★★★★☆
@@ -47,7 +47,7 @@
         <div class="column write is-primary">
           <div>
             <br>
-            ～～ DBスキル ～～
+            ～～ DB ～～
             <br>
             <br>  
             SQLSever ★★★☆☆

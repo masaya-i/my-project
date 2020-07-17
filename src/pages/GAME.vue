@@ -69,7 +69,7 @@
         <div class="column is-thirds-five write">
             <div>
                 <br>
-                少し紹介させていただきますと、ジャンルとしては、ロールプレイングアクションで、
+                少し紹介させていただきますと、ジャンルとしてはアクションRPGで、
                 キャラをレベルアップさせて敵を倒していくという話です。
                 <br>
                 <br>
@@ -136,7 +136,7 @@
                 <br>
                 僕の場合は、ある敵（O.S)を倒したときの達成感と解放感があまりに凄すぎて、
                 その後の居酒屋で一人だけ、ずっと放心状態だったのが良い思い出です。
-                あの日、僕の心はダークソウルの世界に置いたままでした。（笑） 
+                あの日、僕の心はダークソウルの世界に残されたままでした。（笑） 
                 <br>
                 <br>
                 ソウルを失うたびに、発狂していく友達を何人も見てきましたが、
@@ -149,7 +149,7 @@
                 <br>
                 <br>
                 動機は何であれ、是非やってみたい、鋼のメンタルを手に入れたいという方は、
-                伊藤までご連絡ください。ソフトを無期限でお貸しいたします。  
+                伊藤までご連絡ください。PS4版ソフトを無期限でお貸しいたします。  
             </div>
         </div>
     </div>
@@ -157,7 +157,7 @@
     <div class="columns is-centered">
         <img class="gif" src=".././assets/FARAN.gif" alt="画像を表示出来ません">
     </div>
-    <br>
+    <!-- <br>
     <h2 class="container is-fluid is-size-4">海外でも大人気</h2>
     <br>
     <div class="columns is-desktop is-mobile is-tablet is-centered">
@@ -169,7 +169,7 @@
             allowfullscreen>
             </iframe>
         </div>
-    </div>
+    </div> -->
     <br>
 </div>
 </template>
